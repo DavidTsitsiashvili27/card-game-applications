@@ -7,68 +7,68 @@ let score = 0;
 document.querySelector(".score").textContent = score;
 const cardData = [
     {
-        image: "../assets/.ace_of_clubs.png",
-        name: "ace of clubs"
+        "image": "./assets/.ace_of_clubs.png",
+        "name": "ace of clubs"
     },
     {
-        image: "../assets/ace_of_diamonds.png",
-        name: "ace of diamonds" 
+        "image": "./assets/ace_of_diamonds.png",
+        "name": "ace of diamonds" 
     },
     {
-        image: "../assets/ace_of_hearts.png",
-        name: "ace of hearts"
+        "image": "./assets/ace_of_hearts.png",
+        "name": "ace of hearts"
     },
     {
-        image: "../assets/ace_of_spades.png",
-        name: "ace of spades"
+        "image": "./assets/ace_of_spades.png",
+        "name": "ace of spades"
     },
     {
-        image: "../assets/jack_of_clubs2.png",
-        name: "jack of clubs"
+        "image": "./assets/jack_of_clubs2.png",
+        "name": "jack of clubs"
     },
     {
-        image: "../assets/jack_of_diamonds2.png",
-        name: "jack of diamonds"
+        "image": "./assets/jack_of_diamonds2.png",
+        "name": "jack of diamonds"
     },
     {
-        image: "../assets/jack_of_hearts2",
-        name: "jack of hearts "
+        "image": "./assets/jack_of_hearts2",
+        "name": "jack of hearts "
     },
     {
-        image: "../assets/jack_of_spades2.png",
-        name: "jack of spades"
+        "image": "./assets/jack_of_spades2.png",
+        "name": "jack of spades"
     },
     {
-        image: "../assets/king_of_clubs2.png",
-        name: "king of clubs"
+        "image": "./assets/king_of_clubs2.png",
+        "name": "king of clubs"
     },
     {
-        image: "../assets/king_of_diamonds2.png",
-         name:"king of diamonds"
+        "image": "./assets/king_of_diamonds2.png",
+         "name":"king of diamonds"
     },
     {
-       image: "../assets/king_of_hearts2.png",
-         name:"king of hearts"
+       "image": "./assets/king_of_hearts2.png",
+         "name":"king of hearts"
     }, 
     {
-        image: "../assets/king_of_spades2.png",
-         name:"king of spades"
+        "image": "./assets/king_of_spades2.png",
+         "name":"king of spades"
     },
     {
-        image: "../assets/queen_of_clubs2.png",
-         name:"queen of clubs"
+        "image": "./assets/queen_of_clubs2.png",
+         "name":"queen of clubs"
     },
     {
-         image: "../assets/queen_of_diamonds2.png",
-         name:"queen of diamonds"
+        "image": "./assets/queen_of_diamonds2.png",
+         "name":"queen of diamonds"
     },
     {
-        image: "../assets/queen_of_hearts2.png",
-         name:"queen of hearts"
+       "image": "./assets/queen_of_hearts2.png",
+         "name":"queen of hearts"
     },
     {
-        image: "../assets/queen_of_spades2.png",
-        name:"queen of spades"
+        "image": "./assets/queen_of_spades2.png",
+        "name":"queen of spades"
    }
 ];
 
@@ -104,7 +104,7 @@ function generateCards() {
 
           cardElement.innerHTML = `
             <div class="front">
-              <img class="front-image" src="${card.image}" alt="Card Image" />
+              <img class="front-image" src="${card.image}" />
             </div>
             <div class="back"></div>
           `;
