@@ -4,11 +4,14 @@
     padding: 10px;
 }
 
-.grid-table-header, .grid-table-cell {
-    padding: 10px;
-    border: 1px solid #ccc;
-    text-align: center;
+.grid-table-cell {
+
     background-color: #f9f9f9;
+    max-width: 100%;  /* Prevents the image from exceeding 100% of its container width */
+    max-height: 150px; /* Prevents the image from exceeding 300px in height */
+    border-spacing:  0;
+    /*width: auto;
+    height: auto;*/
 }
 
 @media (min-width: 600px) {
@@ -22,3 +25,4 @@
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
 }
+
