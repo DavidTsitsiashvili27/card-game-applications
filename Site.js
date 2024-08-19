@@ -126,17 +126,31 @@ function flipCard() {
   }
 
   secondCard = this;
-  score++;
+  //score++;
   document.querySelector(".score").textContent = score;
   lockBoard = true;
 
   checkForMatch();
+
+
 }
 
 function checkForMatch() {
   let isMatch = firstCard.dataset.name === secondCard.dataset.name;
 
-  isMatch ? disableCards() : unflipCards();
+  console.log(isMatch);
+  if(isMatch)
+  {
+    disableCards();
+    score++;
+    document.querySelector(".score").textContent = score;
+  }
+  else{
+    unflipCards();
+  }
+
+
+
 }
 
 function disableCards() {
