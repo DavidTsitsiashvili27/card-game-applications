@@ -58,7 +58,7 @@ p {
     transform: rotateY(180deg);
 }
 
-.front.back{
+.back{
     backface-visibility: hidden;
     position: absolute;
     border-radius: 10px;

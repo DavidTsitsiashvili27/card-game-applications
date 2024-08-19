@@ -7,7 +7,7 @@ let score = 0;
 document.querySelector(".score").textContent = score;
 const cardData = [
     {
-        "image": "./assets/.ace_of_clubs.png",
+        "image": "./assets/ace_of_clubs.png",
         "name": "ace of clubs"
     },
     {
@@ -31,7 +31,7 @@ const cardData = [
         "name": "jack of diamonds"
     },
     {
-        "image": "./assets/jack_of_hearts2",
+        "image": "./assets/jack_of_hearts2.png",
         "name": "jack of hearts "
     },
     {
